@@ -6,10 +6,9 @@ export default function LandingPage() {
     return (
         <>
             <div className="main-container h-screen " >
-                <div className="flex">
+                <div className="flex relative h-15">
 
                     <img id="forebearWhiteText" src="WhiteForeBearTextOnly.png" className="mt-5" alt="White ForeBear" style={{ color: "white" }} />
-                    <img className="bearImg" src="White_ForeBear_Bear.png" alt="white ForeBear Bear Logo" />
 
                 </div>
 
@@ -23,9 +22,11 @@ export default function LandingPage() {
 
 
                     {/* Hero section */}
-                    <div className="relative isolate -z-10"  >
+                    <div className="relative "  >
 
-
+                        <div className="relative h-0  " >
+                            <img className="bearImg absolute inset-x-10  top-0 left-24 h-24 mt-6" src="White_ForeBear_Bear.png" alt="white ForeBear Bear Logo" />
+                        </div>
 
                         <div
                             className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
@@ -43,11 +44,10 @@ export default function LandingPage() {
                             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
                                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 
-                                    <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl summary-ContainerDesktop ">
-                                        <p className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                                            {/* <img className="bearImg" src="White_ForeBear_Bear.png" alt="white ForeBear Bear Logo" /> */}
-                                        </p>
-                                        <p className="relative mt-6 text-lg leading-8 text-white sm:max-w-md lg:max-w-none">
+                                    <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl summary-Container ">
+
+
+                                        <p className="relative mt-0 text-lg leading-7 text-white sm:max-w-md lg:max-w-none">
                                             ForeBear was founded in 2021 by Gary Magill and Matthew Hickey. Introduced to one another after college, we bonded over a shared love of golf.  Admittedly, it’s our passion because golf is unique - a game like no other where your mind goes to battle with the course. Where no two courses are the same and your game is never perfected.  Addictive.
                                             <br />
 
@@ -151,7 +151,7 @@ export default function LandingPage() {
                             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
                                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 
-                                    <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl summary-Container ">
+                                    <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl summary-ContainerDesktop ">
                                         <p className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                                             <img className="bearImgDesktop" src="White_ForeBear_Bear.png" alt="white ForeBear Bear Logo" />
                                         </p>
