@@ -499,7 +499,7 @@ aside li {
 * --------------------------------------------------
 */
 
-#forebearWhiteText {
+#forebearWhiteTextDesktop {
 
   margin: 20px;
   width: 95%;
@@ -509,18 +509,53 @@ aside li {
   transform: translate(-50%, -50%);
 }
 
-.bearImg {
+.bearImgDesktop {
   width: 300px;
   margin-left: 150px;
 }
 
-.summary-Container {
+.summary-ContainerDesktop {
   position: relative;
   top: 75px;
   right: 70px;
 
 }
 
-.newsLetterInputs {
+.newsLetterInputsDesktop {
   margin-left: 29%;
 }
+
+
+/* Media Queries for Mobile */
+/* @media screen and (max-width: 768px) {
+  #forebearWhiteText {
+    bottom: 95%;
+  }
+
+  .bearImg {
+    width: 100px;
+    margin-left: 50px;
+  }
+
+  .summary-Container {
+    top: 0;
+    right: 0;
+  }
+
+  .newsLetterInputs {
+    margin-left: 0;
+  }
+
+  .mainPageImage {
+    height: 100%;
+  }
+
+  .clothingPics {
+    height: 100px;
+  }
+
+  .newsLetterContainer {
+    height: 50%;
+  }
+
+} */
