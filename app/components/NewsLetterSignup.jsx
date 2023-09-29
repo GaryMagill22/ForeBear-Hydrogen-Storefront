@@ -43,9 +43,9 @@ export default function NewsLetterSignup() {
 
     return (
 
-        <div className="sm:py-24 newsLetterContainer">
-            <div className="sm:px-6 lg:px-10">
-                <div className="relative isolate overflow-hidden bg-gray-900 px-8 py-24 shadow-2xl sm:rounded-3xl sm:px-24 sm:py-32">
+        <div className="newsLetterContainer">
+            <div className="sm:px-6 lg:px-2">
+                <div className="relative isolate pb-8 px-8 shadow-2xl sm:rounded-3xl sm:px-24 ">
                     <h2 className="mx-auto max-w-3xl text-center text-3xl font-bold tracking-tight text-white sm:text-5xl">
                         Get notified when we’re launching!
                     </h2>
