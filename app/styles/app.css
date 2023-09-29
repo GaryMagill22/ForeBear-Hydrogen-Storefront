@@ -18,12 +18,12 @@ img {
 * --------------------------------------------------
 */
 aside {
-  background: var(--color-light);
+  background: var(--color-dark);
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
   height: 100vh;
   max-width: var(--aside-width);
   min-width: var(--aside-width);
-  position: fixed;
+  /* position: fixed; */
   right: calc(-1 * var(--aside-width));
   top: 0;
   transition: transform 200ms ease-in-out;
@@ -48,6 +48,7 @@ aside header .close {
   text-decoration: none;
   transition: all 200ms;
   width: 20px;
+
   &:hover {
     opacity: 1;
   }
@@ -64,6 +65,7 @@ aside main {
 
 aside p {
   margin: 0 0 0.25rem;
+
   &:last-child {
     margin: 0;
   }
@@ -116,6 +118,7 @@ aside li {
     pointer-events: auto;
     visibility: visible;
   }
+
   /* reveal aside */
   &:target aside {
     transform: translateX(calc(var(--aside-width) * -1));
@@ -129,13 +132,13 @@ aside li {
 */
 .header {
   align-items: center;
-  background: #fff;
+  background: grey;
   display: flex;
   height: var(--header-height);
   padding: 0 1rem;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .header-menu-mobile-toggle {
@@ -153,6 +156,7 @@ aside li {
 .header-menu-desktop {
   display: none;
   grid-gap: 1rem;
+
   @media (min-width: 45em) {
     display: flex;
     grid-gap: 1rem;
@@ -251,6 +255,7 @@ aside li {
   align-items: center;
   display: flex;
 }
+
 /*
 * --------------------------------------------------
 * components/Search
@@ -310,6 +315,7 @@ aside li {
 
 .featured-collection-image {
   aspect-ratio: 1 / 1;
+
   @media (min-width: 45em) {
     aspect-ratio: 16 / 9;
   }
@@ -325,6 +331,7 @@ aside li {
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
+
   @media (min-width: 45em) {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -358,6 +365,7 @@ aside li {
 .collection-description {
   margin-bottom: 1rem;
   max-width: 95%;
+
   @media (min-width: 45em) {
     max-width: 600px;
   }
@@ -382,6 +390,7 @@ aside li {
 */
 .product {
   display: grid;
+
   @media (min-width: 45em) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
@@ -470,4 +479,48 @@ aside li {
 
 .account-logout {
   display: inline-block;
+}
+
+/*
+* --------------------------------------------------
+* colorblock polo (main page)
+* --------------------------------------------------
+*/
+
+.mainPageImage {
+  height: 100%;
+}
+
+
+
+/*
+* --------------------------------------------------
+* LANDING PAGE
+* --------------------------------------------------
+*/
+
+#forebearWhiteText {
+
+  margin: 20px;
+  width: 95%;
+  position: absolute;
+  bottom: 70%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.bearImg {
+  width: 300px;
+  margin-left: 150px;
+}
+
+.summary-Container {
+  position: relative;
+  top: 75px;
+  right: 70px;
+
+}
+
+.newsLetterInputs {
+  margin-left: 29%;
 }
