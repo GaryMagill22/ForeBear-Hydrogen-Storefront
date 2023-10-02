@@ -504,19 +504,19 @@ aside li {
   margin: 20px;
   width: 95%;
   position: absolute;
-  bottom: 70%;
+  bottom: 72%;
   left: 49%;
   transform: translate(-50%, -50%);
 }
 
 .bearImgDesktop {
-  width: 300px;
+  width: 400px;
   margin-left: 150px;
 }
 
 .summary-ContainerDesktop {
   position: relative;
-  top: 75px;
+  top: 55px;
   right: 70px;
 
 }
@@ -527,7 +527,7 @@ aside li {
 
 
 /* Media Queries for Mobile */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #forebearWhiteText {
     bottom: 95%;
   }
@@ -558,4 +558,4 @@ aside li {
     height: 50%;
   }
 
-} */
+}

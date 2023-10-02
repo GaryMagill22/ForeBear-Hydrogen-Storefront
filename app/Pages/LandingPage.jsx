@@ -5,7 +5,7 @@ export default function LandingPage() {
 
     return (
         <>
-            <div className="main-container h-screen">
+            <div className="main-container h-screen lg:hidden">
                 <div className="flex relative h-15">
                     <img
                         id="forebearWhiteText"
@@ -51,7 +51,7 @@ export default function LandingPage() {
                                             We do not claim to be designers. We are two guys who love golf and wanted to create clothing that we couldn’t find. We create an elevated casual wardrobe that’s as versatile as it is comfortable, created for life beyond the course.
                                         </p>
                                     </div>
-                                    <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-1 sm:gap-4 sm:grid-rows-2"> {/* 2x2 grid on mobile */}
+                                    <div className="mt-20 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-1 sm:gap-4 sm:grid-rows-2">
                                         <div className="w-32 flex-none space-y-8">
                                             <div className="relative">
                                                 <img
@@ -105,19 +105,20 @@ export default function LandingPage() {
             </div>
 
             {/* desktop version */}
-            {/* <div className="main-container h-screen lg:hidden" > */}
+            <div className="hidden main-container h-screen lg:block" >
 
-            {/* <main className="relative isolate -z-10 h-screen mb-20 "> */}
+                <main className="relative isolate -z-10 h-screen mb-20 ">
 
-            {/* <img
-                        src='ColorBlock_Polo.png'
-                        className="absolute inset-0 -z-10 w-full h-full object-cover stroke-gray-200 [mask-image:radial-gradient(50rem_50rem_at_center,white,transparent)] mainPageImage"
-                        aria-hidden="true"
-                    /> */}
+                    <div className="absolute inset-0 -z-10 w-full h-full">
+                        <img
+                            src='ColorBlock_Polo.png'
+                            className="absolute inset-0 -z-10 w-full h-full object-cover stroke-gray-200 [mask-image:radial-gradient(50rem_50rem_at_top,white,transparent)] "
+                            aria-hidden="true"
+                        />
+                    </div>
 
-
-            {/* Hero section */}
-            {/* <div className="relative isolate -z-10"  >
+                    {/* Hero section */}
+                    <div className="relative isolate -z-10"  >
                         <img id="forebearWhiteTextDesktop" src="WhiteForeBearTextOnly.png" alt="White ForeBear" style={{ color: "white" }} />
 
 
@@ -156,7 +157,7 @@ export default function LandingPage() {
                                             We do not claim to be designers. We are two guys who love golf and wanted to create clothing that we couldn’t find. We create an elevated casual wardrobe that’s as versatile as it is comfortable, created for life beyond the course.
                                         </p>
                                     </div>
-                                    <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 clothingPics" >
+                                    <div className="flex justify-end gap-8 sm:-mt-50 sm:justify-start sm:pl-20 lg:mt-28 lg:pl-0 clothingPics" >
                                         <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                                             <div className="relative ">
                                                 <img
@@ -211,7 +212,7 @@ export default function LandingPage() {
                     <NewsLetterSignup />
                 </main>
 
-            </div> */}
+            </div>
         </>
     )
 }
