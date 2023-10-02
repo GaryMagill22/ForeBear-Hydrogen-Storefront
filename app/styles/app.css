@@ -521,8 +521,8 @@ aside li {
 
 }
 
-.newsLetterInputsDesktop {
-  margin-left: 29%;
+.newsLetterInputs {
+  width: 300px;
 }
 
 
@@ -533,8 +533,7 @@ aside li {
   }
 
   .bearImg {
-    width: 100px;
-    margin-left: 50px;
+    height: 100px;
   }
 
   .summary-Container {
