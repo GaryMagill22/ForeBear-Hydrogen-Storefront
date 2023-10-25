@@ -154,7 +154,7 @@ export default function LandingPage() {
                                             <br />
 
 
-                                            We do not claim to be designers. We are two guys who love golf and wanted to create clothing that we couldn’t find. We create an elevated casual wardrobe that’s as versatile as it is comfortable, created for life beyond the course.
+                                            We are two guys who love golf and wanted to create clothing that we couldn’t find. We create an elevated casual wardrobe that’s as versatile as it is comfortable, created for life beyond the course.
                                         </p>
                                     </div>
                                     <div className="flex justify-end gap-8 sm:-mt-50 sm:justify-start sm:pl-20 lg:mt-28 lg:pl-0 clothingPics" >
