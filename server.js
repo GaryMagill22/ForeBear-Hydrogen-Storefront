@@ -46,6 +46,8 @@ export default {
         storefrontHeaders: getStorefrontHeaders(request),
       });
 
+
+      
       /*
        * Create a cart handler that will be used to
        * create and update the cart in the session.
